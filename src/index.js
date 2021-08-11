@@ -1,4 +1,5 @@
 // TODO: Add JSDoc
+// TODO: Add Supress warnings
 
 function getCSSRule(ruleName, deleteFlag = false) {
   // Returns requested style object
@@ -48,6 +49,7 @@ function getCSSRule(ruleName, deleteFlag = false) {
       } while (cssRule); // end While loop
     } // end For loop
   } // end styleSheet ability check
+  console.log('No stylesheets found!');
   return false; // we found NOTHING!
 }
 
