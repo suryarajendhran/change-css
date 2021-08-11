@@ -184,18 +184,17 @@ Special thanks to
 
 
 
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/suryarajendhran/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/suryarajendhran/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/suryarajendhran/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/suryarajendhran/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/suryarajendhran/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/suryarajendhran/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/suryarajendhran/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/suryarajendhran/repo/issues
-[license-shield]: https://img.shields.io/github/license/suryarajendhran/repo.svg?style=for-the-badge
-[license-url]: https://github.com/suryarajendhran/repo/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/suryarajendhran/change-css.svg?style=for-the-badge
+[contributors-url]: https://github.com/suryarajendhran/change-css/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/suryarajendhran/change-css.svg?style=for-the-badge
+[forks-url]: https://github.com/suryarajendhran/change-css/network/members
+[stars-shield]: https://img.shields.io/github/stars/suryarajendhran/change-css.svg?style=for-the-badge
+[stars-url]: https://github.com/suryarajendhran/change-css/stargazers
+[issues-shield]: https://img.shields.io/github/issues/suryarajendhran/change-css.svg?style=for-the-badge
+[issues-url]: https://github.com/suryarajendhran/change-css/issues
+[license-shield]: https://img.shields.io/github/license/suryarajendhran/change-css.svg?style=for-the-badge
+[license-url]: https://github.com/suryarajendhran/change-css/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/suryarajendhran
