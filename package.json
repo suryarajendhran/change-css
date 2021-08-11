@@ -1,6 +1,6 @@
 {
   "name": "change-css",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A library to help modify css in all it's forms easily.",
   "main": "src/index.js",
   "homepage": "https://github.com/suryarajendhran/change-css",
