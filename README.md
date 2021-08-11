@@ -124,7 +124,7 @@ You need to have node and NPM installed
    ```
 2. Import into your file
    ```js
-   const ChangeCSS = require('change-css');
+   const getCSSRule = require('change-css'); // This is the only function that is available at the moment
    ```
 
 
@@ -132,11 +132,17 @@ You need to have node and NPM installed
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-TODO: To be added
+### Get a CSS Rule
+Use the getCSSRule to search your document's stylesheets for a [CSS Rule](https://developer.mozilla.org/en-US/docs/Web/API/CSSRule).
+```js
+const getCSSRule = require('change-css');
+const CSSRule = getCSSRule('.text-base'); 
+// Returns a CSSRule if such a rule exists 
+// in any of the stylesheets in your document 
+// else returns false.
+```
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+<!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
 
 
