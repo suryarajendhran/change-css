@@ -1,0 +1,22 @@
+{
+  "name": "change-css",
+  "version": "0.1.0",
+  "description": "A library to help modify css in all it's forms easily.",
+  "main": "src/index.js",
+  "homepage": "https://github.com/UserName/package-name",
+  "bugs": {
+    "url": "https://github.com/UserName/package-name/issues",
+    "email": "suryarajendhran@outlook.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "dynamic",
+    "modify"
+  ],
+  "author": "suryarajendhran (suryarajendhran@outlook.com)",
+  "license": "MIT",
+  "private": "false"
+}
