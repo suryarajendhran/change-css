@@ -1,3 +1,5 @@
+// TODO: Add JSDoc
+
 function getCSSRule(ruleName, deleteFlag = false) {
   // Returns requested style object
   if (document.styleSheets) {
