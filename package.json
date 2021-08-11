@@ -1,11 +1,11 @@
 {
   "name": "change-css",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "A library to help modify css in all it's forms easily.",
   "main": "src/index.js",
-  "homepage": "https://github.com/UserName/package-name",
+  "homepage": "https://github.com/suryarajendhran/change-css",
   "bugs": {
-    "url": "https://github.com/UserName/package-name/issues",
+    "url": "https://github.com/suryarajendhran/change-css/issues",
     "email": "suryarajendhran@outlook.com"
   },
   "scripts": {
@@ -18,5 +18,5 @@
   ],
   "author": "suryarajendhran (suryarajendhran@outlook.com)",
   "license": "MIT",
-  "private": "false"
+  "private": false
 }
