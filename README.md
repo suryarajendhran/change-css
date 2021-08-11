@@ -180,8 +180,6 @@ Project Link: [https://github.com/suryarajendhran/change-css](https://github.com
 
 Special thanks to
 * This awesome [guide](https://zellwk.com/blog/publish-to-npm/) about publishing to NPM by [Zell Liew](https://github.com/zellwk).
-* []()
-* []()
 
 
 
