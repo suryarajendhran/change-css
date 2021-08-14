@@ -1,1 +1,1 @@
-export {getCSSRule} from './getCSSRule'
+export { getCSSRule } from './getCSSRule';
