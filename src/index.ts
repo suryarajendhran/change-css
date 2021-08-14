@@ -1,0 +1,1 @@
+export {getCSSRule} from './getCSSRule'

@@ -2,14 +2,20 @@
   "name": "change-css",
   "version": "0.1.2",
   "description": "A library to help modify css in all it's forms easily.",
-  "main": "src/index.js",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "files": [
+    "/dist"
+  ],
   "homepage": "https://github.com/suryarajendhran/change-css",
   "bugs": {
     "url": "https://github.com/suryarajendhran/change-css/issues",
     "email": "suryarajendhran@outlook.com"
   },
   "scripts": {
-    "test": "echo \"No test specified\""
+    "test": "echo \"No test specified\"",
+    "build": "tsc"
   },
   "keywords": [
     "css",
@@ -22,5 +28,8 @@
   },
   "author": "suryarajendhran <suryarajendhran@outlook.com> (https://suryarajendhran.com)",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "typescript": "^4.3.5"
+  }
 }
