@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.js",
   "files": [
-    "/dist"
+    "dist"
   ],
   "homepage": "https://github.com/suryarajendhran/change-css",
   "bugs": {
