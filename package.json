@@ -1,6 +1,6 @@
 {
   "name": "change-css",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A library to help modify css in all it's forms easily.",
   "type": "module",
   "main": "dist/index.js",
