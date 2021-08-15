@@ -1,1 +1,1 @@
-export declare function getCSSRule(ruleName: string, deleteFlag?: boolean): any;
+export default function getCSSRule(ruleName: string, deleteFlag?: boolean): any;
