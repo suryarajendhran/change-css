@@ -41,12 +41,12 @@
   <h3 align="center">Change CSS</h3>
 
   <p align="center">
-    A library to help modify css in all it's forms easily.
+    A library to help find, modify and work with css rules easily.
     <br />
     <a href="https://github.com/suryarajendhran/change-css"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/suryarajendhran/change-css">View Demo</a>
+<!--     <a href="https://github.com/suryarajendhran/change-css">View Demo</a> -->
     ·
     <a href="https://github.com/suryarajendhran/change-css/issues">Report Bug</a>
     ·
@@ -57,8 +57,8 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+<details>
+  <summary>Table of Contents</summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -87,7 +87,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-To be added soon.
+Sometimes, swapping out classes is not enough so you can instead modify the stylesheets themselves. change-css is a library that can help you do just that. This can be a very easy path to theming a dynamic site, especially if the theme variables are generated through JS.
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Here's a blank template to get started:
@@ -122,9 +122,9 @@ You need to have node and NPM installed
    ```sh
    npm install --save change-css
    ```
-2. Import into your file
+2. Import necessary functions into your file
    ```js
-   const getCSSRule = require('change-css'); // This is the only function that is available at the moment
+   import { getCSSRule, modifyCSSRule } from 'change-css';
    ```
 
 
@@ -133,13 +133,20 @@ You need to have node and NPM installed
 ## Usage
 
 ### Get a CSS Rule
-Use the getCSSRule to search your document's stylesheets for a [CSS Rule](https://developer.mozilla.org/en-US/docs/Web/API/CSSRule).
+Use getCSSRule() to search your document's stylesheets for a [CSS Rule](https://developer.mozilla.org/en-US/docs/Web/API/CSSRule).
 ```js
-const getCSSRule = require('change-css');
+import { getCSSRule } from 'change-css';
 const CSSRule = getCSSRule('.text-base'); 
 // Returns a CSSRule if such a rule exists 
 // in any of the stylesheets in your document 
 // else returns false.
+```
+
+### Modify a CSS Rule
+The modifyCSSRule() function makes it easier to modify a [CSS Rule](https://developer.mozilla.org/en-US/docs/Web/API/CSSRule) with a single function call.
+```js
+import { modifyCSSRule } from 'change-css';
+modifyCSSRule('body', { fontFamily: 'Inter' });
 ```
 
 <!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
