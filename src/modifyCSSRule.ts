@@ -1,9 +1,16 @@
-import { getCSSRule } from "./getCSSRule";
+import getCSSRule from './getCSSRule';
 
 interface CSSProperties {
   fontFamily: string,
 }
 
-export function modifyCSSRule(ruleName: string, propertiesToModify: CSSProperties) {
-  console.log('Modify CSS Rule not yet created!');
+// TODO: Add a useImportant feature
+export default function modifyCSSRule(ruleName: string, propertiesToModify: CSSProperties) {
+  const cssRule = getCSSRule(ruleName);
+
+  const cssProperties = Object.keys(propertiesToModify);
+
+  cssProperties.forEach((cssProperty) => {
+    cssRule.style[cssProperty] = propertiesToModify[cssProperty];
+  });
 }
