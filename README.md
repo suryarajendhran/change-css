@@ -43,7 +43,7 @@
   <p align="center">
     A library to help find, modify and work with css rules easily.
     <br />
-    <a href="https://github.com/suryarajendhran/change-css"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/suryarajendhran/change-css"><strong>« Explore the docs »</strong></a>
     <br />
     <br />
 <!--     <a href="https://github.com/suryarajendhran/change-css">View Demo</a> -->
@@ -51,6 +51,7 @@
     <a href="https://github.com/suryarajendhran/change-css/issues">Report Bug</a>
     ·
     <a href="https://github.com/suryarajendhran/change-css/issues">Request Feature</a>
+    ·
   </p>
 </p>
 
@@ -95,26 +96,14 @@ Here's a blank template to get started:
 `suryarajendhran`, `change-css`, `SuryaRajendhran`, `suryarajendhran@outlook.com`, `Change CSS`, `A library to help modify css in all it's forms easily.` -->
 
 
-### Built With
-
-* [NP](https://github.com/sindresorhus/np)
-<!-- * []()
-* []() -->
-
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+To add the library to your project
 
 ### Prerequisites
 
-You need to have node and NPM installed
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+The library has no dependencies, works with plain old HTML/CSS/JS.
 
 ### Installation
 
@@ -122,10 +111,7 @@ You need to have node and NPM installed
    ```sh
    npm install --save change-css
    ```
-2. Import necessary functions into your file
-   ```js
-   import { getCSSRule, modifyCSSRule } from 'change-css';
-   ```
+2. Soon to be available as a CDN download.
 
 
 
@@ -192,7 +178,7 @@ Project Link: [https://github.com/suryarajendhran/change-css](https://github.com
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-Special thanks to
+Thanks to
 * This awesome [guide](https://zellwk.com/blog/publish-to-npm/) about publishing to NPM by [Zell Liew](https://github.com/zellwk).
 
 
