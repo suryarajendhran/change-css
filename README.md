@@ -113,7 +113,7 @@ The library has no dependencies, works with plain old HTML/CSS/JS.
    npm install --save change-css
    ```
 
-2. Soon to be available as a CDN download.
+2. Also available as a CDN download.
 
 
 
