@@ -108,9 +108,11 @@ The library has no dependencies, works with plain old HTML/CSS/JS.
 ### Installation
 
 1. Install the package from npm
+
    ```sh
    npm install --save change-css
    ```
+
 2. Soon to be available as a CDN download.
 
 
@@ -119,7 +121,9 @@ The library has no dependencies, works with plain old HTML/CSS/JS.
 ## Usage
 
 ### Get a CSS Rule
+
 Use getCSSRule() to search your document's stylesheets for a [CSS Rule](https://developer.mozilla.org/en-US/docs/Web/API/CSSRule).
+
 ```js
 import { getCSSRule } from 'change-css';
 const CSSRule = getCSSRule('.text-base'); 
@@ -129,13 +133,16 @@ const CSSRule = getCSSRule('.text-base');
 ```
 
 ### Modify a CSS Rule
+
 The modifyCSSRule() function makes it easier to modify a [CSS Rule](https://developer.mozilla.org/en-US/docs/Web/API/CSSRule) with a single function call.
+
 ```js
 import { modifyCSSRule } from 'change-css';
 modifyCSSRule('body', { fontFamily: 'Inter' });
 ```
 
 ### Usage as a CDN script
+
 From version 0.3, Change CSS can now be used in the browser environment. Usage example can be found on [codepen](https://codepen.io/suryarajendhran/pen/mdweBYm).
 
 <!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
