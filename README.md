@@ -135,6 +135,9 @@ import { modifyCSSRule } from 'change-css';
 modifyCSSRule('body', { fontFamily: 'Inter' });
 ```
 
+### Usage as a CDN script
+From version 3, Change CSS can now be used in the browser environment. Usage example can be found on [codepen](https://codepen.io/suryarajendhran/pen/mdweBYm).
+
 <!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
 
