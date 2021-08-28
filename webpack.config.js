@@ -9,7 +9,7 @@ const config = {
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: 'index.js',
-    library: 'change-css',
+    library: 'changecss',
     libraryTarget: 'umd',
     globalObject: 'this',
     umdNamedDefine: true,
