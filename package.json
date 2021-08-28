@@ -13,9 +13,7 @@
     "prepublishOnly": "webpack --mode=production",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\"",
     "lint:fix": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:cov": "jest --coverage"
+    "test": "echo 1"
   },
   "repository": {
     "type": "git",
