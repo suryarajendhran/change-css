@@ -26,6 +26,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/suryarajendhran/change-css/Node.js%20CI?style=for-the-badge)
 <!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
 
 
