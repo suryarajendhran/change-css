@@ -13,7 +13,7 @@
     "prepublishOnly": "webpack --mode=production",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\"",
     "lint:fix": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
-    "test-server": "cd test_directory/random && yarn serve",
+    "test-server": "cd test_directory/vue-app && yarn serve",
     "cy:run": "cypress run",
     "test": "server-test test-server http://localhost:8000 cy:run"
   },
