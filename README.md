@@ -26,6 +26,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/suryarajendhran/change-css/Node.js%20CI?style=for-the-badge)
 <!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
 
 
@@ -120,7 +121,9 @@ The library has no dependencies, works with plain old HTML/CSS/JS.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-### Get a CSS Rule
+### Usage as an ES6 module
+
+#### Get a CSS Rule
 
 Use getCSSRule() to search your document's stylesheets for a [CSS Rule](https://developer.mozilla.org/en-US/docs/Web/API/CSSRule).
 
@@ -132,7 +135,7 @@ const CSSRule = getCSSRule('.text-base');
 // else returns false.
 ```
 
-### Modify a CSS Rule
+#### Modify a CSS Rule
 
 The modifyCSSRule() function makes it easier to modify a [CSS Rule](https://developer.mozilla.org/en-US/docs/Web/API/CSSRule) with a single function call.
 
